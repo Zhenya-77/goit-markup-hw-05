@@ -477,10 +477,11 @@ footer .container {
 
 .form-footer {
   display: flex;
+  gap: 24px;
 }
 
 .form-label-footer {
-  gap: 24px;
+  
 }
 
 .form-input-footer {
