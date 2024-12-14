@@ -531,7 +531,6 @@ footer .container {
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
 }
 
 .modal-window {
@@ -628,6 +627,6 @@ footer .container {
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-svg-name:focus {
+.modal-form-input:focus {
   fill: #4d5ae5;
 }
