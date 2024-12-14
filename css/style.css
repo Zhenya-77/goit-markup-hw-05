@@ -568,8 +568,7 @@ footer .container {
 
 .modal-button:hover,
 .modal-button:focus {
-  background-color: #404bbf;
-  border: none;
+  fill: #ffffff;
 }
 
 .footer-svg-button {
