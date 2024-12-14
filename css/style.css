@@ -480,9 +480,6 @@ footer .container {
   gap: 24px;
 }
 
-.form-label-footer {
-}
-
 .form-input-footer {
   width: 264px;
   height: 40px;
@@ -534,6 +531,7 @@ footer .container {
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 72px 24px 24px 24px;
 }
 
 .modal-window {
@@ -572,4 +570,65 @@ footer .container {
 .modal-button:focus {
   background-color: #404bbf;
   border: none;
+}
+
+.footer-svg-button {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-svg-button:hover,
+.footer-svg-button:focus {
+  fill: #ffffff;
+}
+
+.modal-window-p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 16px;
+}
+
+.modal-form-box {
+  margin-bottom: 8px;
+}
+
+.modal-form-label {
+  line-height: 1.17;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.modal-form-label-div {
+  position: relative; 
+}
+
+
+.modal-form-input {
+  width: 100%;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  padding-left: 38px; 
+  outline: transparent; 
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  border-color: #4D5AE5; 
+}
+
+.footer-svg-name {
+  position: absolute;
+  left: 16px;
+  top: 50%; 
+  transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+
+}
+.footer-svg-name:focus {
+  fill: #4D5AE5;
 }
