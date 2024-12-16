@@ -681,11 +681,8 @@ footer .container {
   fill: transparent;
 }
 
-.visually-hidden:checked {
+input.visually-hidden:checked + .modal-form-span {
   background-color: #404bbf;
-}
-
-.visually-hidden:checked + .modal-form-span {
   border: none;
-  fill: #F4F4FD;
+  fill: #f4f4fd;
 }
