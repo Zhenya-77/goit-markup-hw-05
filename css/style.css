@@ -623,7 +623,9 @@ footer .container {
 
 .modal-form-input:focus {
   border-color: #4D5AE5;
-  fill: #4d5ae5;
+}
+.modal-form-input:focus + .footer-svg-name {
+  fill: #4D5AE5;
 }
 
 
