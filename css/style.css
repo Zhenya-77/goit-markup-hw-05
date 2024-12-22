@@ -71,6 +71,8 @@ h6 {
 }
 
 .navigation-list-item-one {
+  padding: 24px 0;
+  display: block;
   position: relative;
   color: #404bbf;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -695,6 +697,8 @@ input:checked + .modal-form-label-five > .modal-form-span {
 }
 
 .modal-form-button-last {
+  margin-right: auto;
+  margin-left: auto;
   display: block;
   min-width: 169px;
   height: 56px;
@@ -708,4 +712,8 @@ input:checked + .modal-form-label-five > .modal-form-span {
   background-color: #4d5ae5;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-social-div {
+  margin-right: 80px;
 }
